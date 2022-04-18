@@ -33,8 +33,7 @@
 // 4. Test your work!
 const add = (num1, num2, callback) => {
     setTimeout(()=>{
-        const sum  = num1 + num2
-        callback(sum)
+        callback(num1 + num2)
     }, 3000)
 }
 add(1, 4, (sum) => {
